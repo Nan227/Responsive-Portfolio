@@ -20,16 +20,15 @@ nav {
   height: 50px;
   text-align: center;
 }
-.container {
-  height: 250px;
-}
+
 #left {
+  float: left;
   background:#ebebeb;
   text-align: center;
   height: 250px;
   margin: 10px;
   width: 495px;
-  float: left;
+  
 }
 #article{
   color:#ebebeb;
@@ -62,4 +61,102 @@ footer {
   margin: 10px;
   height: 50px;
   text-align: center;
+}
+@media screen and (max-width: 640px) {
+  header{
+    text-align: center; 
+  }
+  nav {
+    float: left;
+    width: 33%;
+    text-align: center;
+  }
+  .section{
+    width: 33%;
+    text-align: center;
+    flex: 25%;
+  }
+  #left,#article {
+    width: 33%;
+    text-align: center;
+  }
+  #aside{
+    clear: both; 
+    text-align: center;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #h123, #p {
+    height: 18px;
+    text-align: center;
+  }
+  footer {
+    clear: both; 
+    text-align: center;
+    width: 33%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header{
+    text-align: center;
+    width: 75%; 
+  }
+  nav {
+    float: left;
+    width: 75%;
+    text-align: center;
+  }
+  #left,#article {
+    width: 75%;
+    text-align: center;
+  }
+  #h123, #p {
+    height: 18px;
+    text-align: center;
+  }
+  #aside{
+    clear: both; 
+    text-align: center;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer {
+    clear: both; 
+    text-align: center;
+    width: 75%;
+  }
+}
+@media screen and (max-width: 980px) {
+  body {
+    background-color: darkblue;
+  }
+  header{
+    text-align: center;
+    width: 50%; 
+  }
+  nav {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+  #left,#article, {
+    width: 50%;
+    text-align: center;
+  }
+  #aside{
+    clear: both; 
+    text-align: center;
+    width: 50%;
+  }
+  #h123, #p {
+    height: 20px;
+    text-align: center;
+  }
+  footer {
+    clear: both; 
+    text-align: center;
+    width: 50%;
+  }
 }
