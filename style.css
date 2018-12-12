@@ -68,7 +68,7 @@ footer {
   }
   nav {
     float: left;
-    width: 33%;
+    width: 100%;
     text-align: center;
   }
   .section{
@@ -94,7 +94,7 @@ footer {
   footer {
     clear: both; 
     text-align: center;
-    width: 33%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
